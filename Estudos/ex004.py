@@ -1,0 +1,10 @@
+s = (input('Digite algo : '))
+print('O tipo dessa variavel é ', type(s))
+print('Essa variável só tem espaços? ', s.isspace())
+print('É um número? ', s.isnumeric())
+print('É alfabético? ', s.isalpha())
+print('É alfanumérico? ', s.isalnum())
+print('Está em maiúscula? ', s.isupper())
+print('Está em minúscula? ', s.islower())
+print('Está capitalizada? ', s.istitle())
+
