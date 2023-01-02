@@ -1,0 +1,6 @@
+n1 = float(input('Nota do primeiro bimestre: '))
+n2 = float(input('Nota do segundo bimestre: '))
+n3 = float(input('Nota do terceirp bimestre: '))
+n4 = float(input('Nota do quarto bimestre: '))
+f = ((n1+n2+n3+(n4*2))/5)
+print('A média final do aluno foi {:=^20}'.format(f))
