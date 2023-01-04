@@ -1,0 +1,6 @@
+d = float(input('Quantos dias o carro foi alugado? '))
+vd = (d*60)
+k = float(input('Por quantos km ele rodou? '))
+vk = (k*0.15)
+vf = (vd+vk)
+print('O valor que você deve pagar é de R${}'.format(vf))
