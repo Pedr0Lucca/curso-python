@@ -1,0 +1,5 @@
+co = float(input('Qual é o cateto oposto? '))
+ca = float(input('Qual é o cateto adjacente? '))
+h = (co*co + ca*ca)
+h = (h**(1/2))
+print("{:.2f}".format(h))
