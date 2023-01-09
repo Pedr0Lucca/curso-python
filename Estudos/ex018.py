@@ -3,6 +3,7 @@ ca = float(input('Qual é o cateto adjacente? '))
 h = (co*co + ca*ca)
 #calcular a hipotenusa do triangulo retangulo
 h = (h**(1/2))
+print('{:.2f}'.format(h))
 #Usar a info para trazer o sen e o cos e a tang do ==
 s = (co/h)
 c = (ca/h)
